@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Tela1Activity">
+
+
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:title="action_filter"
+        app:showAsAction="ifRoom">
+          <menu>
+              <group android:checkableBehavior="all">
+
+                  <item
+                      android:id="@+id/action_tema_padrao"
+                      android:title="tema padrao"/>
+
+                  <item
+                      android:id="@+id/action_tema_madeira_escuro"
+                      android:title="tema madeira escuro"/>
+
+                  <item
+                      android:id="@+id/action_tema_madeira_claro"
+                      android:title="tema madeira claro"/>
+              </group>
+          </menu>
+        </item>
+
+</menu>

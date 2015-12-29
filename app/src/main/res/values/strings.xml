@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQLITE</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela__cadastro">Tela_CadastroActivity</string>
+</resources>

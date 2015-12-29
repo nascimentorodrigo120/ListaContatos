@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".Tela2Activity">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView">
+    </item>
+
+
+    <item android:id="@+id/action_backup"
+        android:icon="@drawable/ic_actionbar_lista"
+        android:title="action_icones_listar"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" >
+    </item>
+
+
+
+
+
+
+
+
+</menu>
